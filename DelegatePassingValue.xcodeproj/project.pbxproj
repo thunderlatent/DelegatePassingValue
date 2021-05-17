@@ -14,7 +14,7 @@
 		53157D7C25A05FFB00447A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53157D7B25A05FFB00447A25 /* Assets.xcassets */; };
 		53157D7F25A05FFB00447A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53157D7D25A05FFB00447A25 /* LaunchScreen.storyboard */; };
 		53157D8925A0B6F800447A25 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53157D8825A0B6F800447A25 /* SecondVC.swift */; };
-		53157D8C25A0B7F500447A25 /* SecondToFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53157D8B25A0B7F500447A25 /* SecondToFirst.swift */; };
+		53157D8C25A0B7F500447A25 /* PassingValueDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53157D8B25A0B7F500447A25 /* PassingValueDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		53157D7E25A05FFB00447A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53157D8025A05FFB00447A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53157D8825A0B6F800447A25 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
-		53157D8B25A0B7F500447A25 /* SecondToFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondToFirst.swift; sourceTree = "<group>"; };
+		53157D8B25A0B7F500447A25 /* PassingValueDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingValueDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			children = (
 				53157D7225A05FF400447A25 /* AppDelegate.swift */,
 				53157D7425A05FF400447A25 /* SceneDelegate.swift */,
-				53157D8E25A0B80900447A25 /* PassingValueProtocal */,
+				53157D8B25A0B7F500447A25 /* PassingValueDelegate.swift */,
 				53157D7625A05FF400447A25 /* FirstVC.swift */,
 				53157D8825A0B6F800447A25 /* SecondVC.swift */,
 				53157D7825A05FF400447A25 /* Main.storyboard */,
@@ -71,14 +71,6 @@
 				53157D8025A05FFB00447A25 /* Info.plist */,
 			);
 			path = DelegatePassingValue;
-			sourceTree = "<group>";
-		};
-		53157D8E25A0B80900447A25 /* PassingValueProtocal */ = {
-			isa = PBXGroup;
-			children = (
-				53157D8B25A0B7F500447A25 /* SecondToFirst.swift */,
-			);
-			path = PassingValueProtocal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +147,7 @@
 				53157D7325A05FF400447A25 /* AppDelegate.swift in Sources */,
 				53157D8925A0B6F800447A25 /* SecondVC.swift in Sources */,
 				53157D7525A05FF400447A25 /* SceneDelegate.swift in Sources */,
-				53157D8C25A0B7F500447A25 /* SecondToFirst.swift in Sources */,
+				53157D8C25A0B7F500447A25 /* PassingValueDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
